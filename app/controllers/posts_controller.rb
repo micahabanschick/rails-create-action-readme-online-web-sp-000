@@ -18,5 +18,5 @@ class PostsController < ApplicationController
     post.description = params[:description]
     post.save
   end
-  
+
 end
